@@ -9,13 +9,13 @@ Install telepot to send messages to telegram
 Test telepot in your terminal
 Type the following lines: 
 
->>> python
+> python
 
->>> import telepot
+> import telepot
 
->>> bot = telepot.Bot('***** PUT YOUR TOKEN HERE *****')
+> bot = telepot.Bot('***** PUT YOUR TOKEN HERE *****')
 
->>> bot.getMe()
+> bot.getMe()
 
 
 With this you get the information of the Telegram bot 
@@ -27,9 +27,9 @@ https://api.telegram.org/bot **TOKEN HERE** /getUpdates
 
 Install fswebcam to make photo's
 
->>> sudo apt-get install fswebcam
+> sudo apt-get install fswebcam
 
 
 Making a picture
 
->>> fswebcam image.jpg
+> fswebcam image.jpg
