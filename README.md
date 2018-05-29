@@ -9,8 +9,12 @@ Type the following lines:
 
 ~ python
 >>> import telepot
+
 >>> bot = telepot.Bot('***** PUT YOUR TOKEN HERE *****')
+
 >>> bot.getMe()
+
+
 With this you get the information of the Telegram bot 
 
 This link is to get the chat_id for sending images to yourself
